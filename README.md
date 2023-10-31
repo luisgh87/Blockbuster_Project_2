@@ -16,11 +16,21 @@ El repositorio se va a organizar en diferentes carpetas que contienen los siguie
 # Proceso:
 
 1. Data cleansing de los dataframes:
-    - La mayoría contenían el dato en perfectas condiciones para su análisis
-    - 
+   
+    - La mayoría contenían el dato en perfectas condiciones para su análisis, así que simplemente se ha utlizado la librería Pandas para terminar de retocarlos. También se ha eliminado alguna serie innecesaria por no contener datos útiles.
+    - Una vez curados los contenidos, se han exportado en archivos en  formato csv a nuestro repositorio.
 
 2. Construcción del database "Blockbuster"
 
-
-3. Lanzar las queries
+   - Se han creado las tablas adecuandose al contenido de las columnas de los dataframes.
+   - Los datos son introducidos, al igual que la creación de las tablas, a través de Python.
+   - Las relaciones son establecidas, siendo todas de "one to many".
+   - Se crea el diagrama y tenemos nuestro database operativo.
+   
+3. Lanzar las queries:
+   - QUERY 1 - Top 10 clientes que más películas han alquilado
+   - QUERY 2 - Top 10 películas más alquiladas
+   - QUERY 3 - Top 10 actores que más películas tienen en old_HDD
+   - QUERY 4 - Mostrar las peliculas por idioma que hay en el inventario
+   - QUERY 5 - Tiempo medio de alquiler de las películas
 
