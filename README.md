@@ -15,3 +15,12 @@ El repositorio se va a organizar en diferentes carpetas que contienen los siguie
 
 # Proceso:
 
+1. Data cleansing de los dataframes:
+    - La mayoría contenían el dato en perfectas condiciones para su análisis
+    - 
+
+2. Construcción del database "Blockbuster"
+
+
+3. Lanzar las queries
+
