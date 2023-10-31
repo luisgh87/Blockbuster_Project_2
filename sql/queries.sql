@@ -39,4 +39,8 @@ ON language.language_id = film.language_id
 INNER JOIN inventory 
 ON film.film_id = inventory.film_id 
 GROUP BY language.language 
-# QUERY 5
+
+---QUERY 5 - Tiempo medio de alquiler de las películas
+
+SELECT AVG(DATEDIFF(return_date, rental_date)) 
+FROM rental
