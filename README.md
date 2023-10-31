@@ -10,8 +10,8 @@ El repositorio se va a organizar en diferentes carpetas que contienen los siguie
 
 - Data: Archivos .csv con la limpieza de los datos proporcionados.
 - Notebooks: Archivos .ipnyb en los que se usan diversas técnicas para la curación de dichos datos y la creación del database con Python.
-- Images: Archivos .png para la presentación del proyecto.
-- SQL: Se establecen las queries y el diagrama final del database.
+- Images: Archivos .png para la presentación del proyecto (queries, diagrama).
+- SQL: Se establecen las queries.
 
 # Proceso:
 
